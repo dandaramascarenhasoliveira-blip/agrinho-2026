@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte - O Futuro do Campo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">Agro<span>Forte</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#tecnologia">Tecnologia</a></li>
+                    <li><a href="#contato" class="btn-nav">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>A força que alimenta o mundo</h1>
+            <p>Unindo tradição e alta tecnologia para impulsionar a produtividade no campo.</p>
+            <a href="#tecnologia" class="btn-main">Conheça Nossas Soluções</a>
+        </div>
+    </section>
+
+    <section id="tecnologia" class="features">
+        <div class="container">
+            <h2>Inovação no Agronegócio</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Monitoramento Inteligente</h3>
+                    <p>Análise de solo e lavoura em tempo real com uso de drones e satélites.</p>
+                </div>
+                <div class="card">
+                    <h3>Gestão de Safra</h3>
+                    <p>Sistemas automatizados para planejar, plantar e colher com máxima eficiência.</p>
+                </div>
+                <div class="card">
+                    <h3>Sustentabilidade</h3>
+                    <p>Práticas modernas que preservam os recursos naturais e aumentam o lucro.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2>Fale Conosco</h2>
+            <p>Quer transformar a produtividade da sua fazenda? Entre em contato.</p>
+            <form id="form-contato">
+                <input type="text" id="nome" placeholder="Seu Nome" required>
+                <input type="email" id="email" placeholder="Seu E-mail" required>
+                <textarea id="mensagem" placeholder="Sua Mensagem" rows="5" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+            <div id="mensagem-sucesso" class="hidden">Mensagem enviada com sucesso! Entraremos em contato em breve.</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Agro Forte. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
